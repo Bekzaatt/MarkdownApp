@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: MarkdownApp
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+db:
+  driver: "org.postgresql.Driver"
+  url: "jdbc:postgresql://localhost:5432/markdown"
+  username: "postgres"
+  password: "postgres"
